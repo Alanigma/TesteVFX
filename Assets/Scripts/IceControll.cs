@@ -15,7 +15,7 @@ public class IceControll : MonoBehaviour
 
     IEnumerator Stop()
     {
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(4.2f);
         effect.SendEvent("Stop");
     }
 }

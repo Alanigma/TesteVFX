@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        StartCoroutine(AutomaticAnim());
+        //StartCoroutine(AutomaticAnim());
     }
 
     IEnumerator AutomaticAnim()

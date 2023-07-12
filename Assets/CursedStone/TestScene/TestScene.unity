@@ -424,8 +424,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647928011}
-  m_LocalRotation: {x: -0.06385584, y: 0.67838377, z: -0.059380427, w: -0.72951484}
-  m_LocalPosition: {x: 15.5, y: 3.86, z: -2.06}
+  m_LocalRotation: {x: -0.13616328, y: 0.59286827, z: -0.102569684, w: -0.787049}
+  m_LocalPosition: {x: 13.116089, y: 2.2935572, z: -1.0003767}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 1596616538}
   - component: {fileID: 1596616537}
   - component: {fileID: 1596616536}
+  - component: {fileID: 1596616539}
   m_Layer: 0
   m_Name: IcePrison
   m_TagString: Untagged
@@ -1037,6 +1038,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1596616539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596616535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8122cec41b399e4194d4b2f080f011a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1702301404
 GameObject:
   m_ObjectHideFlags: 0

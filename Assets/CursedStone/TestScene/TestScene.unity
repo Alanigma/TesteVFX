@@ -224,7 +224,7 @@ PrefabInstance:
     - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317494, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
@@ -299,7 +299,7 @@ PrefabInstance:
     - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}
@@ -339,6 +339,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317494, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: size
@@ -404,6 +409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: IcePrison (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}
 --- !u!1001 &529247061
@@ -413,6 +423,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317495, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: m_RootOrder
@@ -473,6 +488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: IcePrison (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}
 --- !u!1001 &563866394
@@ -482,6 +502,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317494, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: size
@@ -546,6 +571,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: IcePrison (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}
@@ -764,8 +794,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647928011}
-  m_LocalRotation: {x: 0.0030238917, y: 0.98807734, z: -0.1526799, w: 0.019566834}
-  m_LocalPosition: {x: -2.9747503, y: 9.874929, z: 12.734107}
+  m_LocalRotation: {x: -0.09204546, y: 0.71011704, z: -0.09450691, w: -0.69161403}
+  m_LocalPosition: {x: 12.88, y: 7.75, z: -4.24}
   m_LocalScale: {x: 1, y: 1, z: 1.621}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1183,6 +1213,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317494, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: size
@@ -1247,6 +1282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: IcePrison (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}
@@ -2055,6 +2095,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317494, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: size
@@ -2119,6 +2164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: IcePrison (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}
@@ -2210,7 +2260,7 @@ PrefabInstance:
     - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317494, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
@@ -2280,7 +2330,7 @@ PrefabInstance:
     - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}
@@ -2299,12 +2349,12 @@ PrefabInstance:
     - target: {fileID: 5350547177892712560, guid: 0c09aa53a23659743a7e1e7e0c628d43,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5350547177892712561, guid: 0c09aa53a23659743a7e1e7e0c628d43,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5350547177892712575, guid: 0c09aa53a23659743a7e1e7e0c628d43,
         type: 3}

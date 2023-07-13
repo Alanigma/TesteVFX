@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        //StartCoroutine(AutomaticAnim());
+        StartCoroutine(AutomaticAnim());
     }
 
     IEnumerator AutomaticAnim()
@@ -42,6 +42,6 @@ public class Player : MonoBehaviour
 
     void Meteor()
     {
-        Instantiate(MeteorAtack, new Vector3(transform.position.x, transform.position.y + 6, transform.position.z), Quaternion.identity);
+        Instantiate(MeteorAtack, new Vector3(transform.position.x, transform.position.y + 6, transform.position.z + 5), Quaternion.identity);
     }
 }

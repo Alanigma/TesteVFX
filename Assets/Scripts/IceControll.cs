@@ -3,25 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 
-public class IceControll : MonoBehaviour
+public class IceControll : VFXControll
 {
-    VisualEffect effect;
+    [SerializeField] GameObject desactivate;
+    [SerializeField] ParticleSystem wind;
+    [SerializeField] ParticleSystem wind2;
     [SerializeField] GameObject target;
     [SerializeField] float size;
 
-    void Start()
+    override protected void Start()
     {
+        base.Start();
         if(target != null) size = target.GetComponent<Collider>().bounds.size.y * 0.75f;
-        effect = GetComponent<VisualEffect>();
-        effect.SetFloat("AreaSize", size);
-        effect.SetFloat("SnowSize", size * 2);
-        effect.SetFloat("IceSize", size * .3f);
-        StartCoroutine(Stop());
+        vfx = GetComponent<VisualEffect>();
+        vfx.SetFloat("AreaSize", size);
+        vfx.SetFloat("SnowSize", size * 2);
+        vfx.SetFloat("IceSize", size * .3f);
+        
     }
 
-    IEnumerator Stop()
+    protected override IEnumerator StopLater()
     {
-        yield return new WaitForSeconds(4.2f);
-        effect.SendEvent("Stop");
+        yield return new WaitForSeconds(duration);
+        wind.Stop();
+        //wind2.Stop();
     }
 }

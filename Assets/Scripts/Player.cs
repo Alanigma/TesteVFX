@@ -18,14 +18,14 @@ public class Player : MonoBehaviour
 
     IEnumerator AutomaticAnim()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         anim.Play("Mage-Skill3");
         yield return new WaitForSeconds(0.5f);
         Lightning();
         yield return new WaitForSeconds(3);
         anim.Play("Mage-Skill1");
         Ice();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         anim.Play("Mage-Skill2");
         Meteor();
     }

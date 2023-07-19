@@ -14988,7 +14988,7 @@ GameObject:
   - component: {fileID: 7010845199610609273}
   - component: {fileID: 1280071165}
   m_Layer: 0
-  m_Name: Lightning
+  m_Name: Lightening_VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

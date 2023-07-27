@@ -3130,16 +3130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459215197787317493, guid: af0820dc0a08fbd42a93bd12c26c89a3,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4459215197787317494, guid: af0820dc0a08fbd42a93bd12c26c89a3,
         type: 3}
       propertyPath: target
@@ -3204,11 +3194,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: IcePrison
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459215197787317498, guid: af0820dc0a08fbd42a93bd12c26c89a3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af0820dc0a08fbd42a93bd12c26c89a3, type: 3}

@@ -1,0 +1,2 @@
+Ouro - Color(2.68235302,1.96078432,0,0) HDR no emission
+0.52 de fresnel
